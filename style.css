@@ -22,8 +22,8 @@
 		position: relative;
 	}
 	.menu ul{
-		display: flex;
 		list-style: none;
+		display: flex;
 	}
 	.menu a {
 		text-decoration: none;
