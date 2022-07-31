@@ -68,7 +68,7 @@
 	
 		table tbody tr:nth-child(2n+2)
 		{
-			background: #f4f4f4;
+			background: transparent;
 		}
 		
 		table td
@@ -95,14 +95,6 @@
 			background: #eee;
 		}
 		
-		table tbody
-		{
-		}
-
-	form
-	{
-	}
-	
 		form input.text,
 		form select,
 		form textarea
@@ -115,7 +107,6 @@
 
 		form input.button,
 		form input.text,
-		form select,
 		form textarea
 		{
 			-webkit-appearance: none;
@@ -257,17 +248,6 @@
 				background-color: #999999;
 			}
 	
-		.button-small
-		{
-		}
-		
-		.button-big
-		{
-		}
-		
-		.button-huge
-		{
-		}
 
 	ul.style1
 	{
@@ -280,9 +260,6 @@
 			padding-left: 0.5em;
 		}
 	
-	ul.links
-	{
-	}
 	
 		ul.links li
 		{
@@ -318,3 +295,173 @@
 		color: #aaa;
 	}
 
+
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	body {
+		width: 100%;
+	}
+	.header {
+		background-color: #fff;
+		display:flex;
+		justify-content: space-between;
+		align-items: center;
+		padding: 10px 30px;
+	}
+	.content-wrap {
+		background: url(images/train-bg.jpg) no-repeat;
+		background-position: center;
+		background-size: cover;
+		text-align: center;
+		min-height: 90vh;
+		position: relative;
+	}
+	.menu ul{
+		list-style: none;
+		display: flex;
+	}
+	.menu a {
+	text-decoration: none;
+    color: #213d77;
+    text-transform: uppercase;
+    font-size: 15px;
+    letter-spacing: 1.2px;
+    font-family: cursive;
+    font-weight: 700;
+    transition: all 0.3s;
+
+	}
+	.menu a:hover{
+		color: #fb792b;
+	}
+	.menu ul li {
+		margin-right: 15px;
+	}
+	.menu ul li:last-child {
+		margin-right: 0;
+	}
+	.logo {
+		height: 60px;
+	}
+	
+	.page-title{
+		color: #fff;
+		position: absolute;
+		top: 50%;
+		left: 40px;
+		font-size: 45px;
+		transform: translateY(-50%);
+	}
+	.footer{
+		background-color: #282a2b;
+		color: #fff;
+		display: flex;
+		padding: 30px 40px;
+		justify-content: space-between;
+	}
+	.social-icon i {
+		color: #fff;
+		font-size: 20px;
+		margin-right: 10px;
+	
+	}
+	.align-center {
+	text-align: center;
+    font-family: emoji;
+    font-weight: 600;
+	}
+	.user-form-wrap {
+		background: url(images/train-bg-form.jpg) center/cover no-repeat;
+		min-height: 90vh;
+		padding-top: 50px;
+		
+	}
+	.user-login-wrap {
+		background: url(images/train-bg-login.jpg) center/cover no-repeat;
+		min-height: 90vh;
+		padding-top: 50px;
+		text-align: center;
+	}
+	.btn{
+		margin-top: 30px;
+		padding: 10px 30px;
+		background: #ff7928;
+		border: 0;
+		color: #fff;
+		border-radius: 10px;
+		text-decoration: none;
+		font-size: 14px;
+	}
+	.btn-link {
+		color: #fff;
+	}
+	.btn-link:hover {
+		text-decoration: none;
+	}
+	.enquiry-form{
+		min-height: 80vh;
+		padding-top: 20vh;
+		background: #3a5a9c;
+		
+	}
+	form{
+	font-size: 16px;
+    display: inline-block;
+    background-image: linear-gradient(45deg, #2780ae, #5bf80b63);
+    text-align: center;
+    width: auto;
+    color: #070606;
+    padding: 30px;
+    border-radius: 20px;
+	}
+	.user-form-wrap form {
+		margin-left: 10%;
+	}
+	.admin-login-form{
+		min-height: 80vh;
+		padding-top: 20vh;
+		background: #3a5a9c;
+	}
+	.enquiry-result-wrap {
+		color: #fff;
+		font-size: 20px;
+		min-height: 80vh;
+		padding: 40px;
+		background: #3a5a9c;
+	}
+	.enquiry-result-wrap form {
+		margin-top: 30px;
+	}
+	.content-area{
+		min-height: 80vh;
+		text-align: center;
+		background: #3a5a9c;
+		padding-top: 2vh;
+		color: #fff;
+	}
+	.content-area table{
+		color: #fff;
+		margin: 20px auto;
+	}	
+	table {
+		font-size: 14px;
+	}
+	.admin-login a {
+		color: rgb(255, 255, 255);
+		display: flex;
+		background-color: #000;
+		margin-left: 45%;
+		margin-right: 40%;
+		padding: 20px;
+		border-radius: 40px;
+		justify-content: center;
+		font-family: cursive;
+
+	}
+	.copyright-wrap p {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
